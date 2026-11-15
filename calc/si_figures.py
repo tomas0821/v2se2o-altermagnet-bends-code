@@ -105,46 +105,30 @@ def figS4():
     a = ax[1]
     for geom, mk in (("L", "o"), ("T", "^")):
         for lam, col in ((5.0, VIOLET), (2.0, AQUA), (1.0, ALT)):
-            pts = [(p["L_over_lambda"], p["dP"]) for p in C["points"] if p["geometry"] == geom and p["lambda_over_W"] == lam]
+            pts = [(p["Ltot_over_lambda"], p["dP"]) for p in C["points"] if p["geometry"] == geom and p["lambda_over_W"] == lam]
             if pts:
                 a.plot(*zip(*pts), mk, color=col, mfc="none" if geom == "T" else col,
                        label=f"λ$_{{sf}}$ = {lam:g}W" if geom == "L" else ("T (open)" if lam == 5.0 else None))
-    x = np.linspace(0, 1.2, 50)
-    a.plot(x, -0.2 * x ** 2, "-", color=INK, lw=0.9, label=r"$-0.2\,(L/\lambda_{\rm sf})^2$")
+    x = np.linspace(0, 1.5, 50)
+    a.plot(x, -0.13 * x ** 2, "-", color=INK, lw=0.9, label=r"$-0.13\,(L_{\rm tot}/\lambda_{\rm sf})^2$")
     a.axhspan(-0.05, 0.05, color=GREY, alpha=0.25, lw=0)
-    a.set_xscale("log"); a.set_xlim(0.4, 11); a.set_ylim(-1.3, 0.05)
-    a.set_xlabel(r"arm length / $\lambda_{\rm sf}$"); a.set_ylabel(r"$\Delta P$ (network − Eq. (5))")
+    a.set_xscale("log"); a.set_xlim(0.5, 12); a.set_ylim(-1.3, 0.05)
+    a.set_xlabel(r"path (arms + corner) / $\lambda_{\rm sf}$"); a.set_ylabel(r"$\Delta P$ (network − Eq. (5))")
     title(a, "(b) shift of the delivered P (L: filled)"); a.legend(loc="center left", bbox_to_anchor=(0.0, 0.42))
     save(fig, "figS4_diffusive")
 
 
 def figS5():
-    B = list(csv.DictReader(open(ROOT / "data/s4_ballistic.csv"))); D = list(csv.DictReader(open(ROOT / "data/s4_diffusive.csv")))
-    I = json.load(open(ROOT / "data/s4b_ishe.json"))["ISHE estimate at lambda_sf = 25 nm vs probe pair at lambda_sf = W"]
-    fig, ax = plt.subplots(1, 2, figsize=(SW, 2.6), gridspec_kw=dict(wspace=0.55, width_ratios=[1.15, 1]))
-    a = ax[0]
+    B = list(csv.DictReader(open(ROOT / "data/s4_ballistic.csv")))
+    fig, a = plt.subplots(figsize=(SW * 0.6, 2.7))
     for wp, col, mk in ((2, INK, "o"), (4, VIOLET, "s")):
         am = sorted((float(r["E"]), float(r["dV"])) for r in B if r["model"] == "cheng" and r["W"] == "40" and int(r["wp"]) == wp)
         iso = sorted((float(r["E"]), float(r["dV"])) for r in B if r["model"] == "iso" and r["W"] == "40" and int(r["wp"]) == wp)
         a.plot(*zip(*am), "-" + mk, color=col, label=f"altermagnet, w$_p$ = {wp}")
         a.plot(*zip(*iso), "--" + mk, color=col, mfc="none", lw=0.8, label=f"isotropic, w$_p$ = {wp}")
     a.axvline(E_F, color=INK, lw=0.6, ls=":"); a.set_ylim(-0.1, 1.45)
-    a.set_xlabel("E (eV)"); a.set_ylabel(r"$\Delta V/V$"); title(a, "(a) clean limit (Kwant, 16 nm): signal, background")
+    a.set_xlabel("E (eV)"); a.set_ylabel(r"$\Delta V/V$"); title(a, "clean limit (Kwant, 16 nm): signal and background")
     a.legend(loc="upper left", ncol=2, fontsize=6.5)
-    a = ax[1]
-    bias = I["parameters"]["bias_mV"]
-    d1 = [float(r["dV_spin"]) * bias * 1e3 for r in D if r["lambda_sf_over_W"] == "1"]
-    bal = [float(r["dV"]) * bias * 1e3 for r in B if r["model"] == "cheng" and r["E"] == str(E_F)]
-    items = [("probe pair, diffusive\n(λ$_{sf}$ = W, w$_p$ = 1–8)", min(d1), max(d1), INK),
-             ("probe pair, clean\n(E$_F$, 8–16 nm)", min(bal), max(bal), VIOLET),
-             ("Pt ISHE pad\n(λ$_{sf}$ = 25 nm)", I["V_ISHE_uV"], I["V_ISHE_uV"], ALT)]
-    for i, (lab, lo, hi, col) in enumerate(items):
-        a.plot([lo, hi], [i, i], "-", color=col, lw=5, solid_capstyle="round"); a.plot([lo, hi], [i, i], "o", color=col, ms=4)
-        txt = f"{lo / 1e3:.1f}–{hi / 1e3:.1f} mV" if lo >= 1e3 else f"{lo:.2f} µV"
-        a.text(hi * 1.8, i, txt, va="center", fontsize=7, color=INK)
-    a.set_xscale("log"); a.set_xlim(0.05, 3e5)
-    a.set_yticks(range(len(items)), [it[0] for it in items], fontsize=7); a.set_ylim(-0.6, len(items) - 0.4)
-    a.set_xlabel(f"signal at {bias:.0f} mV bias (µV)"); title(a, "(b) probe pair vs inverse spin Hall")
     save(fig, "figS5_readout")
 
 
