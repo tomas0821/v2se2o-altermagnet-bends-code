@@ -1,5 +1,7 @@
 # Spin-polarized currents through bends and junctions of V2Se2O-family altermagnet nanoribbons: code and data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24238844.svg)](https://doi.org/10.5281/zenodo.24238844)
+
 This repository holds the code and data behind the paper
 
 > T. Rojas, *Design rules for spin-polarized currents through bends and junctions of V2Se2O-family altermagnet
@@ -77,4 +79,5 @@ processes, checks free memory and checkpoints every task, so an interrupted run 
 ## License and citation
 
 The code is released under the MIT License (`LICENSE`) and the data under CC BY 4.0. If you use them, please cite
-the paper and this repository (`CITATION.cff`).
+the paper and this archive: doi:[10.5281/zenodo.24238844](https://doi.org/10.5281/zenodo.24238844) (all versions;
+v1.0.0 is [10.5281/zenodo.24238845](https://doi.org/10.5281/zenodo.24238845)).
