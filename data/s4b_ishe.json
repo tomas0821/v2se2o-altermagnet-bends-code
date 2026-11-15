@@ -1,0 +1,62 @@
+{
+ "probe pair dV/V (total, dV_AM) by lambda_sf/W": {
+  "inf": [
+   0.291,
+   0.488
+  ],
+  "5": [
+   0.28,
+   0.465
+  ],
+  "2": [
+   0.236,
+   0.376
+  ],
+  "1": [
+   0.159,
+   0.238
+  ]
+ },
+ "probe pair dV/V, w_p >= 4 cells": {
+  "inf": [
+   0.291,
+   0.353
+  ],
+  "5": [
+   0.28,
+   0.338
+  ],
+  "2": [
+   0.236,
+   0.28
+  ],
+  "1": [
+   0.159,
+   0.184
+  ]
+ },
+ "ISHE estimate at lambda_sf = 25 nm vs probe pair at lambda_sf = W": {
+  "parameters": {
+   "lambda_sf_nm": 25.0,
+   "mu_s_over_V": 0.396,
+   "w_nm": 20.0,
+   "rho_Pt_Ohm_m": 2e-07,
+   "lambda_Pt_nm": 1.5,
+   "t_Pt_nm": 5.0,
+   "theta_SH": 0.1,
+   "bias_mV": 10.0
+  },
+  "R_s_AM_Ohm": 8480.4,
+  "R_s_Pt_Ohm": 0.75,
+  "V_ISHE_uV": 0.2609,
+  "probe_pair_lambda_W_uV": [
+   1673.0,
+   2376.0
+  ],
+  "ratio_ISHE_over_probe": [
+   0.00011,
+   0.000156
+  ],
+  "note": "lambda_sf = 25 nm (working value), mu_s/V = max corner accumulation of the lambda_sf = W network (no probes)"
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "X_point": "(pi,0)",
+ "red_dots_are": "our spin up",
+ "n_red": 701,
+ "n_blue": 701,
+ "rms_meV": 2.2894696008753015,
+ "max_meV": 3.2415316058623524,
+ "p99_meV": 2.93636236852422,
+ "note": "Residual = distance of each Cheng TB dot to the nearest of our two same-spin bands at that k. Digitisation uncertainty ~1.5 meV."
+}
+{
+ "cheng": [
+  {
+   "window_eV": [
+    -0.25,
+    0.25
+   ],
+   "excluding_xy_pockets": false,
+   "n_dots": 194,
+   "rms_meV": 53.4,
+   "max_meV": 115.6,
+   "median_meV": 48.0
+  },
+  {
+   "window_eV": [
+    -0.25,
+    0.25
+   ],
+   "excluding_xy_pockets": true,
+   "n_dots": 114,
+   "rms_meV": 48.2,
+   "max_meV": 88.3,
+   "median_meV": 43.5
+  }
+ ],
+ "single_band": [
+  {
+   "window_eV": [
+    -0.25,
+    0.25
+   ],
+   "excluding_xy_pockets": false,
+   "n_dots": 194,
+   "rms_meV": 301.7,
+   "max_meV": 639.2,
+   "median_meV": 124.5
+  },
+  {
+   "window_eV": [
+    -0.25,
+    0.25
+   ],
+   "excluding_xy_pockets": true,
+   "n_dots": 114,
+   "rms_meV": 77.5,
+   "max_meV": 147.0,
+   "median_meV": 54.4
+  }
+ ]
+}
+{
+ "TB_eV": 0.1301,
+ "DFT_dots_near_X_0_to_0p4_eV": [
+  0.2063
+ ],
+ "note": "the DFT dot nearest above the TB value is the d_xy top in DFT"
+}
+{
+ "cheng": [
+  {
+   "s_TB": 1.61,
+   "spin": "up",
+   "n_dft_dots": 5,
+   "dk_over_pi": -0.0515,
+   "equivalent_dE_meV": 61.9
+  },
+  {
+   "s_TB": 3.5971,
+   "spin": "up",
+   "n_dft_dots": 3,
+   "dk_over_pi": -0.0255,
+   "equivalent_dE_meV": 57.8
+  },
+  {
+   "s_TB": 0.7279,
+   "spin": "up",
+   "n_dft_dots": 4,
+   "dk_over_pi": 0.0534,
+   "equivalent_dE_meV": 47.5
+  },
+  {
+   "s_TB": 1.151,
+   "spin": "up",
+   "n_dft_dots": 3,
+   "dk_over_pi": 0.0198,
+   "equivalent_dE_meV": 33.0
+  },
+  {
+   "s_TB": 0.4029,
+   "spin": "dn",
+   "n_dft_dots": 3,
+   "dk_over_pi": 0.0351,
+   "equivalent_dE_meV": 79.5
+  },
+  {
+   "s_TB": 2.39,
+   "spin": "dn",
+   "n_dft_dots": 5,
+   "dk_over_pi": 0.061,
+   "equivalent_dE_meV": 73.3
+  },
+  {
+   "s_TB": 2.849,
+   "spin": "dn",
+   "n_dft_dots": 3,
+   "dk_over_pi": -0.0103,
+   "equivalent_dE_meV": 17.2
+  },
+  {
+   "s_TB": 3.2721,
+   "spin": "dn",
+   "n_dft_dots": 4,
+   "dk_over_pi": -0.0439,
+   "equivalent_dE_meV": 39.1
+  }
+ ],
+ "single_band": [
+  {
+   "s_TB": 1.6018,
+   "spin": "up",
+   "n_dft_dots": 5,
+   "dk_over_pi": -0.0424,
+   "equivalent_dE_meV": 53.3
+  },
+  {
+   "s_TB": 3.6291,
+   "spin": "up",
+   "n_dft_dots": 3,
+   "dk_over_pi": -0.0572,
+   "equivalent_dE_meV": 118.4
+  },
+  {
+   "s_TB": 0.3709,
+   "spin": "dn",
+   "n_dft_dots": 3,
+   "dk_over_pi": 0.0667,
+   "equivalent_dE_meV": 138.0
+  },
+  {
+   "s_TB": 2.3982,
+   "spin": "dn",
+   "n_dft_dots": 5,
+   "dk_over_pi": 0.0519,
+   "equivalent_dE_meV": 65.3
+  }
+ ]
+}
+{
+ "cheng E=-0.09": 2.7859,
+ "cheng E=+0.00": 2.9443,
+ "cheng E=-0.15": 2.6726,
+ "cheng E=+0.10": 3.1116,
+ "single_band E=-0.09": 0.9482,
+ "single_band E=+0.00": 1.0567,
+ "single_band E=-0.15": 0.8734,
+ "single_band E=+0.10": 1.1776,
+ "xy_holes_per_spin_at_EF": 0.0576
+}
+{
+ "cheng ky=0": [
+  0.3097
+ ],
+ "cheng ky=pi": [
+  0.5578
+ ],
+ "single_band ky=0": [
+  0.323
+ ],
+ "single_band ky=pi": [
+  0.5867
+ ]
+}
+{'point': 'M', 'spin': 'up', 'orbital': 'xz', 'E_TB': 0.5396, 'E_DFT_nearest': 0.5156, 'dE_meV': 23.9}
+{'point': 'M', 'spin': 'up', 'orbital': 'xy', 'E_TB': -0.5968, 'E_DFT_nearest': -0.5325, 'dE_meV': -64.4}
+{'point': 'M', 'spin': 'dn', 'orbital': 'xz', 'E_TB': 0.5396, 'E_DFT_nearest': 0.5156, 'dE_meV': 23.9}
+{'point': 'M', 'spin': 'dn', 'orbital': 'xy', 'E_TB': -0.5968, 'E_DFT_nearest': -0.5325, 'dE_meV': -64.4}
+{'point': 'X', 'spin': 'up', 'orbital': 'xz', 'E_TB': 0.5842, 'E_DFT_nearest': 0.6259, 'dE_meV': -41.6}
+{'point': 'X', 'spin': 'up', 'orbital': 'xy', 'E_TB': 0.1301, 'E_DFT_nearest': 0.2063, 'dE_meV': -76.2}
+{'point': 'X', 'spin': 'dn', 'orbital': 'xz', 'E_TB': -0.9445, 'E_DFT_nearest': -0.9902, 'dE_meV': 45.7}
+{'point': 'X', 'spin': 'dn', 'orbital': 'xy', 'E_TB': -0.3631, 'E_DFT_nearest': -0.3549, 'dE_meV': -8.2}
+{'point': 'Gamma', 'spin': 'up', 'orbital': 'xz', 'E_TB': -0.2591, 'E_DFT_nearest': -0.2303, 'dE_meV': -28.8}
+{'point': 'Gamma', 'spin': 'dn', 'orbital': 'xz', 'E_TB': -0.2591, 'E_DFT_nearest': -0.2303, 'dE_meV': -28.8}
+{'point': 'Y', 'spin': 'up', 'orbital': 'xz', 'E_TB': -0.9445, 'E_DFT_nearest': -0.9899, 'dE_meV': 45.4}
+{'point': 'Y', 'spin': 'up', 'orbital': 'xy', 'E_TB': -0.3631, 'E_DFT_nearest': -0.3558, 'dE_meV': -7.3}
+{'point': 'Y', 'spin': 'dn', 'orbital': 'xz', 'E_TB': 0.5842, 'E_DFT_nearest': 0.625, 'dE_meV': -40.7}
+{'point': 'Y', 'spin': 'dn', 'orbital': 'xy', 'E_TB': 0.1301, 'E_DFT_nearest': 0.2038, 'dE_meV': -73.8}
+{'point': "M'", 'spin': 'up', 'orbital': 'xz', 'E_TB': 0.5396, 'E_DFT_nearest': 0.5157, 'dE_meV': 23.9}
+{'point': "M'", 'spin': 'up', 'orbital': 'xy', 'E_TB': -0.5968, 'E_DFT_nearest': -0.5326, 'dE_meV': -64.2}
+{'point': "M'", 'spin': 'dn', 'orbital': 'xz', 'E_TB': 0.5396, 'E_DFT_nearest': 0.5157, 'dE_meV': 23.9}
+{'point': "M'", 'spin': 'dn', 'orbital': 'xy', 'E_TB': -0.5968, 'E_DFT_nearest': -0.5326, 'dE_meV': -64.2}
+wrote figures/s0_validation.png

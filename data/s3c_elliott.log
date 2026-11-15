@@ -1,0 +1,8 @@
+KV2Se2O N=800 T=300K EF=-0.15 <b2>=8.050e-05 hotfrac=6.264e-05 tau_s/tau=3.106e+03 lambda_sf/l=39.4 lambda_sf(l=0.5nm)=19.7 nm
+KV2Se2O N=800 T=300K EF=-0.09 <b2>=4.617e-05 hotfrac=6.737e-06 tau_s/tau=5.415e+03 lambda_sf/l=52.0 lambda_sf(l=0.5nm)=26.0 nm
+KV2Se2O N=800 T=300K EF=+0.00 <b2>=3.181e-05 hotfrac=2.231e-07 tau_s/tau=7.859e+03 lambda_sf/l=62.7 lambda_sf(l=0.5nm)=31.3 nm
+KV2Se2O N=800 T=300K EF=+0.10 <b2>=2.396e-05 hotfrac=4.951e-09 tau_s/tau=1.043e+04 lambda_sf/l=72.2 lambda_sf(l=0.5nm)=36.1 nm
+KV2Se2O N=800 T=30K EF=-0.15 <b2>=5.692e-05 hotfrac=7.478e-22 tau_s/tau=4.392e+03 lambda_sf/l=46.9 lambda_sf(l=0.5nm)=23.4 nm
+KV2Se2O N=800 T=30K EF=-0.09 <b2>=4.185e-05 hotfrac=8.057e-22 tau_s/tau=5.973e+03 lambda_sf/l=54.7 lambda_sf(l=0.5nm)=27.3 nm
+KV2Se2O N=800 T=30K EF=+0.00 <b2>=3.109e-05 hotfrac=8.624e-22 tau_s/tau=8.041e+03 lambda_sf/l=63.4 lambda_sf(l=0.5nm)=31.7 nm
+KV2Se2O N=800 T=30K EF=+0.10 <b2>=2.308e-05 hotfrac=8.930e-22 tau_s/tau=1.083e+04 lambda_sf/l=73.6 lambda_sf(l=0.5nm)=36.8 nm

@@ -1,0 +1,209 @@
+{
+ "GATE": {
+  "per_geometry": {
+   "L sharp": {
+    "kappa_mean": 0.8789,
+    "kappa_min": 0.7843,
+    "kappa_max": 0.9709,
+    "max_rel_dev": 0.1076,
+    "verdict": "GREY",
+    "worst_point": {
+     "spin": "up",
+     "W": 15,
+     "E": -0.065
+    },
+    "n_points": 108
+   },
+   "L chamfer W/4": {
+    "kappa_mean": 0.9195,
+    "kappa_min": 0.8159,
+    "kappa_max": 0.9753,
+    "max_rel_dev": 0.1127,
+    "verdict": "GREY",
+    "worst_point": {
+     "spin": "up",
+     "W": 15,
+     "E": -0.065
+    },
+    "n_points": 108
+   },
+   "L chamfer W/2": {
+    "kappa_mean": 0.9539,
+    "kappa_min": 0.834,
+    "kappa_max": 0.9852,
+    "max_rel_dev": 0.1256,
+    "verdict": "GREY",
+    "worst_point": {
+     "spin": "up",
+     "W": 15,
+     "E": -0.065
+    },
+    "n_points": 108
+   },
+   "T-junction": {
+    "kappa_mean": 0.8388,
+    "kappa_min": 0.6906,
+    "kappa_max": 0.9424,
+    "max_rel_dev": 0.1767,
+    "verdict": "GREY",
+    "worst_point": {
+     "spin": "up",
+     "W": 15,
+     "E": -0.065
+    },
+    "n_points": 108
+   }
+  },
+  "overall": "GREY"
+ },
+ "GATE diagnostics: max |kappa/mean-1| excluding W=10": {
+  "L sharp": 0.1061,
+  "L chamfer W/4": 0.1148,
+  "L chamfer W/2": 0.1277,
+  "T-junction": 0.1809
+ },
+ "kappa mean [min, max] by geometry and model": {
+  "L sharp / cheng": [
+   0.879,
+   0.784,
+   0.971
+  ],
+  "L sharp / iso": [
+   0.591,
+   0.526,
+   0.764
+  ],
+  "L sharp / single_band": [
+   0.972,
+   0.875,
+   0.996
+  ],
+  "L chamfer W/2 / cheng": [
+   0.954,
+   0.834,
+   0.985
+  ],
+  "L chamfer W/2 / iso": [
+   0.782,
+   0.679,
+   0.867
+  ],
+  "T-junction / cheng": [
+   0.839,
+   0.691,
+   0.942
+  ],
+  "T-junction / iso": [
+   0.759,
+   0.681,
+   0.913
+  ],
+  "T-junction / single_band": [
+   0.958,
+   0.849,
+   0.996
+  ],
+  "45\u00b0 bend / cheng": [
+   0.792,
+   0.383,
+   0.998
+  ],
+  "45\u00b0 bend / iso": [
+   0.893,
+   0.776,
+   0.985
+  ],
+  "45\u00b0 bend / single_band": [
+   0.717,
+   0.088,
+   0.995,
+   "13 of 108 points have N_min = 0"
+  ]
+ },
+ "orbital-resolved kappa, cheng: mean [min, max]": {
+  "L sharp / xz": [
+   0.968,
+   0.79,
+   0.997
+  ],
+  "L sharp / xy": [
+   0.752,
+   0.586,
+   0.951
+  ],
+  "T-junction / xz": [
+   0.953,
+   0.74,
+   0.997
+  ],
+  "T-junction / xy": [
+   0.685,
+   0.434,
+   0.929
+  ],
+  "45\u00b0 bend / xz": [
+   0.619,
+   0.017,
+   0.997
+  ],
+  "45\u00b0 bend / xy": [
+   0.97,
+   0.73,
+   1.0
+  ]
+ },
+ "symmetric L sharp: max |P|": 0.0,
+ "symmetric L chamfer W/4: max |P|": 0.0,
+ "symmetric L chamfer W/2: max |P|": 0.0,
+ "T-arm P: Kwant range": [
+  0.256,
+  0.338
+ ],
+ "T-arm P: counting-rule range": [
+  0.333,
+  0.333
+ ],
+ "T-arm P: max |P - P_rule|": 0.077,
+ "T-junction top/bottom arm symmetry: max |T_top - T_bot|": 0.0,
+ "45-degree bend (cheng)": {
+  "xy+0.0": {
+   "P_range": [
+    -0.007,
+    0.325
+   ],
+   "P_at_EF_over_W": [
+    0.051,
+    0.154
+   ],
+   "kappa_mean": 0.792,
+   "kappa_range": [
+    0.383,
+    0.998
+   ]
+  },
+  "xy+0.08": {
+   "P_range": [
+    -0.006,
+    0.326
+   ],
+   "P_at_EF_over_W": [
+    0.065,
+    0.29
+   ],
+   "kappa_mean": 0.798,
+   "kappa_range": [
+    0.504,
+    0.992
+   ]
+  }
+ },
+ "pocket shift +0.08 at W=20: max |d kappa|": {
+  "L sharp": 0.0586,
+  "T-junction": 0.0474
+ },
+ "SOC bound (Table 2 SOC in the corner)": {
+  "max_abs_P_soc_on": 0.000141,
+  "max_abs_P_soc_off": 4.58e-13,
+  "max_spin_flip_T": 0.00866
+ }
+}

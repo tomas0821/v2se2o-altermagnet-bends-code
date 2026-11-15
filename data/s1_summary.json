@@ -1,0 +1,193 @@
+{
+ "[100] cheng: Kwant - FS prediction (all W, E)": {
+  "projected_mean_abs": 0.361,
+  "projected_max_abs": 1.394,
+  "sharvin_mean_abs": 0.361,
+  "sharvin_max_abs": 1.353,
+  "n_points": 710
+ },
+ "[100] single_band: Kwant - FS prediction (all W, E)": {
+  "projected_mean_abs": 0.192,
+  "projected_max_abs": 1.219,
+  "sharvin_mean_abs": 0.194,
+  "sharvin_max_abs": 1.212,
+  "n_points": 710
+ },
+ "[100] cheng at E_F": {
+  "W=13 (5.1 nm)": {
+   "N_up": 18,
+   "N_dn": 5,
+   "N_up_xz": 13,
+   "N_up_xy": 5,
+   "N_dn_xz": 3,
+   "N_dn_xy": 2,
+   "P": 0.565
+  },
+  "W=19 (7.5 nm)": {
+   "N_up": 26,
+   "N_dn": 8,
+   "N_up_xz": 19,
+   "N_up_xy": 7,
+   "N_dn_xz": 5,
+   "N_dn_xy": 3,
+   "P": 0.529
+  },
+  "W=25 (9.9 nm)": {
+   "N_up": 34,
+   "N_dn": 11,
+   "N_up_xz": 25,
+   "N_up_xy": 9,
+   "N_dn_xz": 6,
+   "N_dn_xy": 5,
+   "P": 0.511
+  },
+  "W=38 (15.0 nm)": {
+   "N_up": 52,
+   "N_dn": 16,
+   "N_up_xz": 38,
+   "N_up_xy": 14,
+   "N_dn_xz": 9,
+   "N_dn_xy": 7,
+   "P": 0.529
+  },
+  "W=51 (20.2 nm)": {
+   "N_up": 69,
+   "N_dn": 22,
+   "N_up_xz": 51,
+   "N_up_xy": 18,
+   "N_dn_xz": 12,
+   "N_dn_xy": 10,
+   "P": 0.516
+  }
+ },
+ "[100] wide limit per row at E_F": {
+  "cheng": {
+   "up": 1.3637,
+   "dn": 0.4467,
+   "P": 0.507
+  },
+  "single_band": {
+   "up": 1.0,
+   "dn": 0.2637,
+   "P": 0.583
+  },
+  "cheng xy+0.08": {
+   "up": 1.4365,
+   "dn": 0.4823,
+   "P": 0.497
+  }
+ },
+ "[100] wide-limit P range, cheng xy+0.0, E in E_F +- 0.10": [
+  0.442,
+  0.567
+ ],
+ "[100] wide-limit P range, cheng xy+0.08, E in E_F +- 0.10": [
+  0.439,
+  0.549
+ ],
+ "[100] wide-limit P range, single_band xy+0.0, E in E_F +- 0.10": [
+  0.517,
+  0.629
+ ],
+ "[100] wide-limit P range, cheng xy+0.0, E in -0.15 ... +0.10": [
+  0.47,
+  0.643
+ ],
+ "[100] wide-limit P range, cheng xy+0.08, E in -0.15 ... +0.10": [
+  0.465,
+  0.601
+ ],
+ "[100] wide-limit P range, single_band xy+0.0, E in -0.15 ... +0.10": [
+  0.547,
+  0.661
+ ],
+ "[110] symmetry check: N_dn == N_up at Wd=36 for all E and bands": true,
+ "[110] Kwant - FS prediction, mean |diff| (all Wd, E)": {
+  "cheng xy+0.0 xz proj": 0.61,
+  "cheng xy+0.0 xz sharvin": 17.25,
+  "cheng xy+0.0 xy proj": 0.31,
+  "cheng xy+0.0 xy sharvin": 1.54,
+  "cheng xy+0.08 xy proj": 0.29,
+  "cheng xy+0.08 xy sharvin": 1.86,
+  "single_band xy+0.0 xz proj": 0.71,
+  "single_band xy+0.0 xz sharvin": 17.31
+ },
+ "[110] at E_F per spin": {
+  "Wd=18 (5.0 nm)": {
+   "N": 4,
+   "N_sheets_xz": 1,
+   "N_pockets_xy": 3,
+   "N_xy_plus_0p08": 5,
+   "N_single_band": 2,
+   "N100_same_width": {
+    "W100": 13,
+    "up": 18,
+    "dn": 5
+   }
+  },
+  "Wd=27 (7.5 nm)": {
+   "N": 8,
+   "N_sheets_xz": 3,
+   "N_pockets_xy": 5,
+   "N_xy_plus_0p08": 9,
+   "N_single_band": 2,
+   "N100_same_width": {
+    "W100": 19,
+    "up": 26,
+    "dn": 8
+   }
+  },
+  "Wd=36 (10.1 nm)": {
+   "N": 9,
+   "N_sheets_xz": 3,
+   "N_pockets_xy": 6,
+   "N_xy_plus_0p08": 10,
+   "N_single_band": 3,
+   "N100_same_width": {
+    "W100": 25,
+    "up": 34,
+    "dn": 11
+   }
+  },
+  "Wd=54 (15.1 nm)": {
+   "N": 13,
+   "N_sheets_xz": 4,
+   "N_pockets_xy": 9,
+   "N_xy_plus_0p08": 15,
+   "N_single_band": 5,
+   "N100_same_width": {
+    "W100": 38,
+    "up": 52,
+    "dn": 16
+   }
+  },
+  "Wd=72 (20.1 nm)": {
+   "N": 16,
+   "N_sheets_xz": 4,
+   "N_pockets_xy": 12,
+   "N_xy_plus_0p08": 19,
+   "N_single_band": 5,
+   "N100_same_width": {
+    "W100": 51,
+    "up": 69,
+    "dn": 22
+   }
+  }
+ },
+ "[110] wide limit per row at E_F (per spin)": {
+  "projected_xz_sheets": 0.0653,
+  "projected_xy_pockets": 0.1762,
+  "sharvin_xz_sheets": 0.5,
+  "sharvin_xy_pockets": 0.2095,
+  "pocket_fraction_projected": 0.73,
+  "xy_plus_0p08_projected": 0.2097,
+  "single_band_projected": 0.076,
+  "single_band_sharvin": 0.5,
+  "cheng_100_up_per_row": 1.3637,
+  "cheng_100_dn_per_row": 0.4467
+ },
+ "[110] wide-limit pocket fraction over E_F +- 0.10": [
+  0.638,
+  0.746
+ ]
+}

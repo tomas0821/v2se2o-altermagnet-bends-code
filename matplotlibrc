@@ -1,0 +1,3 @@
+# Project-wide matplotlib settings: embed TrueType (Type 42) fonts in PDF/PS, as Elsevier artwork requires embedded fonts
+pdf.fonttype: 42
+ps.fonttype: 42

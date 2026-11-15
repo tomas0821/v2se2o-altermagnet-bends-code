@@ -1,0 +1,187 @@
+{
+ "diffusive (W=20, arms 40, probes 10 long)": {
+  "lambda=inf, wp=1": {
+   "dV_AM": 0.4884,
+   "dV_iso": 0.0,
+   "dV_spin": 0.4884,
+   "dV_spin_over_Pstr_mu_s": 0.751
+  },
+  "lambda=inf, wp=2": {
+   "dV_AM": 0.4217,
+   "dV_iso": -0.0004,
+   "dV_spin": 0.4221,
+   "dV_spin_over_Pstr_mu_s": 0.649
+  },
+  "lambda=inf, wp=4": {
+   "dV_AM": 0.3527,
+   "dV_iso": -0.0019,
+   "dV_spin": 0.3546,
+   "dV_spin_over_Pstr_mu_s": 0.546
+  },
+  "lambda=inf, wp=8": {
+   "dV_AM": 0.2907,
+   "dV_iso": -0.0079,
+   "dV_spin": 0.2986,
+   "dV_spin_over_Pstr_mu_s": 0.459
+  },
+  "lambda=5, wp=1": {
+   "dV_AM": 0.4649,
+   "dV_iso": 0.0,
+   "dV_spin": 0.4649,
+   "dV_spin_over_Pstr_mu_s": 0.754
+  },
+  "lambda=5, wp=2": {
+   "dV_AM": 0.4024,
+   "dV_iso": -0.0004,
+   "dV_spin": 0.4028,
+   "dV_spin_over_Pstr_mu_s": 0.653
+  },
+  "lambda=5, wp=4": {
+   "dV_AM": 0.3378,
+   "dV_iso": -0.0019,
+   "dV_spin": 0.3397,
+   "dV_spin_over_Pstr_mu_s": 0.551
+  },
+  "lambda=5, wp=8": {
+   "dV_AM": 0.2797,
+   "dV_iso": -0.0079,
+   "dV_spin": 0.2876,
+   "dV_spin_over_Pstr_mu_s": 0.466
+  },
+  "lambda=2, wp=1": {
+   "dV_AM": 0.3764,
+   "dV_iso": 0.0,
+   "dV_spin": 0.3764,
+   "dV_spin_over_Pstr_mu_s": 0.762
+  },
+  "lambda=2, wp=2": {
+   "dV_AM": 0.3287,
+   "dV_iso": -0.0004,
+   "dV_spin": 0.3291,
+   "dV_spin_over_Pstr_mu_s": 0.666
+  },
+  "lambda=2, wp=4": {
+   "dV_AM": 0.2799,
+   "dV_iso": -0.0019,
+   "dV_spin": 0.2818,
+   "dV_spin_over_Pstr_mu_s": 0.57
+  },
+  "lambda=2, wp=8": {
+   "dV_AM": 0.2359,
+   "dV_iso": -0.0079,
+   "dV_spin": 0.2438,
+   "dV_spin_over_Pstr_mu_s": 0.493
+  },
+  "lambda=1, wp=1": {
+   "dV_AM": 0.2376,
+   "dV_iso": 0.0,
+   "dV_spin": 0.2376,
+   "dV_spin_over_Pstr_mu_s": 0.771
+  },
+  "lambda=1, wp=2": {
+   "dV_AM": 0.2105,
+   "dV_iso": -0.0004,
+   "dV_spin": 0.2109,
+   "dV_spin_over_Pstr_mu_s": 0.684
+  },
+  "lambda=1, wp=4": {
+   "dV_AM": 0.1836,
+   "dV_iso": -0.0019,
+   "dV_spin": 0.1854,
+   "dV_spin_over_Pstr_mu_s": 0.602
+  },
+  "lambda=1, wp=8": {
+   "dV_AM": 0.1594,
+   "dV_iso": -0.0079,
+   "dV_spin": 0.1673,
+   "dV_spin_over_Pstr_mu_s": 0.543
+  }
+ },
+ "straight ribbon: [010] side probe potential - local mid-edge potential": 5.88e-15,
+ "ballistic (Kwant, NM reservoirs), dV/V": {
+  "W=20, wp=2": {
+   "dV_AM_at_EF": 0.5311,
+   "dV_AM_range": [
+    0.4416,
+    1.0
+   ],
+   "dV_iso_range": [
+    -0.0417,
+    0.4914
+   ]
+  },
+  "W=20, wp=4": {
+   "dV_AM_at_EF": 0.5149,
+   "dV_AM_range": [
+    0.3495,
+    0.743
+   ],
+   "dV_iso_range": [
+    0.0581,
+    0.2482
+   ]
+  },
+  "W=20, wp=6": {
+   "dV_AM_at_EF": 0.5944,
+   "dV_AM_range": [
+    0.425,
+    0.5944
+   ],
+   "dV_iso_range": [
+    0.1043,
+    0.3047
+   ]
+  },
+  "W=40, wp=2": {
+   "dV_AM_at_EF": 0.5351,
+   "dV_AM_range": [
+    0.4361,
+    1.0
+   ],
+   "dV_iso_range": [
+    -0.026,
+    0.5159
+   ]
+  },
+  "W=40, wp=4": {
+   "dV_AM_at_EF": 0.4995,
+   "dV_AM_range": [
+    0.3467,
+    0.7511
+   ],
+   "dV_iso_range": [
+    0.0674,
+    0.2661
+   ]
+  },
+  "W=40, wp=6": {
+   "dV_AM_at_EF": 0.5854,
+   "dV_AM_range": [
+    0.4257,
+    0.5854
+   ],
+   "dV_iso_range": [
+    0.1216,
+    0.3291
+   ]
+  }
+ },
+ "ISHE estimate vs probe pair (lambda_sf = 5W)": {
+  "parameters": {
+   "w_nm": 20.0,
+   "lambda_sf_nm": 100.0,
+   "rho_Pt_Ohm_m": 2e-07,
+   "lambda_Pt_nm": 1.5,
+   "t_Pt_nm": 5.0,
+   "theta_SH": 0.1,
+   "bias_mV": 10.0,
+   "mu_s_over_V": 0.8
+  },
+  "R_s_AM_Ohm": 33921.5,
+  "R_s_Pt_Ohm": 0.8,
+  "mu_s_suppression_under_Pt": 0.0,
+  "V_ISHE_uV": 0.1318,
+  "V_probe_pair_uV": 4649.2,
+  "ratio_probe_over_ISHE": 35287.0
+ }
+}

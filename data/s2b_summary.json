@@ -1,0 +1,77 @@
+{
+ "criterion": "every kappa at W in (22, 35, 50) within \u00b16% of the S2 (W >= 20) rule value; W = 18 reported only",
+ "L": {
+  "rule": 0.876,
+  "holdout_mean": 0.8746,
+  "max_rel_dev_W_ge_20": 0.0662,
+  "verdict": "FAIL",
+  "worst": {
+   "W": 35,
+   "E": -0.0275,
+   "kappa": 0.818
+  },
+  "W18_max_rel_dev": 0.0846
+ },
+ "Lc4": {
+  "rule": 0.921,
+  "holdout_mean": 0.9222,
+  "max_rel_dev_W_ge_20": 0.0563,
+  "verdict": "PASS",
+  "worst": {
+   "W": 35,
+   "E": -0.0275,
+   "kappa": 0.8691
+  },
+  "W18_max_rel_dev": 0.0679
+ },
+ "Lc2": {
+  "rule": 0.957,
+  "holdout_mean": 0.9593,
+  "max_rel_dev_W_ge_20": 0.049,
+  "verdict": "PASS",
+  "worst": {
+   "W": 35,
+   "E": -0.0275,
+   "kappa": 0.9101
+  },
+  "W18_max_rel_dev": 0.0532
+ },
+ "T_up": {
+  "rule": 0.792,
+  "holdout_mean": 0.7937,
+  "max_rel_dev_W_ge_20": 0.0498,
+  "verdict": "PASS",
+  "worst": {
+   "W": 35,
+   "E": -0.0275,
+   "kappa": 0.7526
+  },
+  "W18_max_rel_dev": 0.0507
+ },
+ "T_dn": {
+  "rule": 0.896,
+  "holdout_mean": 0.9015,
+  "max_rel_dev_W_ge_20": 0.0694,
+  "verdict": "FAIL",
+  "worst": {
+   "W": 35,
+   "E": -0.0275,
+   "kappa": 0.8338
+  },
+  "W18_max_rel_dev": 0.1057
+ },
+ "T-arm P holdout range (W >= 20)": [
+  0.259,
+  0.305
+ ],
+ "T-arm P spin-resolved rule": 0.277,
+ "overall": "FAIL",
+ "descriptive (not gated): max |T - kappa_rule * N_min| in channels, all holdout W": {
+  "L": 0.81,
+  "Lc2": 0.66,
+  "Lc4": 0.73,
+  "T_dn": 0.44,
+  "T_up": 0.55
+ },
+ "failure mechanism": "both failures at W=35, E=-0.0275: 14 bottleneck channels, the 6th d_xy channel closes by E=-0.0025 (near-threshold, low transmission)"
+}

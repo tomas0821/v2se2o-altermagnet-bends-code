@@ -1,0 +1,29 @@
+19:16:57 start: 0 tasks already done, 240 to run, MemAvailable 2208 MB
+19:16:58 pool ended early: TypeError: Object of type int64 is not JSON serializable
+--- relaunch 19:17:19
+19:17:23 start: 0 tasks already done, 240 to run, MemAvailable 2226 MB
+19:17:27 10/240 tasks done (4 s), MemAvailable 2077 MB
+19:17:29 20/240 tasks done (6 s), MemAvailable 2081 MB
+19:20:18 30/240 tasks done (175 s), MemAvailable 2041 MB
+19:26:33 40/240 tasks done (550 s), MemAvailable 1993 MB
+19:34:08 50/240 tasks done (1005 s), MemAvailable 1909 MB
+19:40:08 60/240 tasks done (1365 s), MemAvailable 1957 MB
+19:41:20 70/240 tasks done (1437 s), MemAvailable 1984 MB
+19:42:32 80/240 tasks done (1510 s), MemAvailable 2015 MB
+19:43:44 90/240 tasks done (1582 s), MemAvailable 2069 MB
+19:44:58 100/240 tasks done (1655 s), MemAvailable 2028 MB
+19:46:31 110/240 tasks done (1748 s), MemAvailable 1903 MB
+19:47:57 120/240 tasks done (1835 s), MemAvailable 1960 MB
+19:48:26 130/240 tasks done (1863 s), MemAvailable 2017 MB
+19:48:55 140/240 tasks done (1892 s), MemAvailable 1955 MB
+19:49:37 150/240 tasks done (1934 s), MemAvailable 1957 MB
+19:50:10 160/240 tasks done (1967 s), MemAvailable 1996 MB
+19:50:30 170/240 tasks done (1987 s), MemAvailable 1980 MB
+19:50:55 180/240 tasks done (2012 s), MemAvailable 1935 MB
+19:51:06 190/240 tasks done (2023 s), MemAvailable 1976 MB
+19:51:20 200/240 tasks done (2038 s), MemAvailable 2012 MB
+19:51:32 210/240 tasks done (2049 s), MemAvailable 2011 MB
+19:51:39 220/240 tasks done (2056 s), MemAvailable 2004 MB
+19:51:51 230/240 tasks done (2068 s), MemAvailable 2020 MB
+19:51:57 240/240 tasks done (2074 s), MemAvailable 2049 MB
+19:51:57 end: 240 new tasks written; rerun the same command to resume anything left

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below and this repository."
+title: "Spin-polarized currents through bends and junctions of V2Se2O-family altermagnet nanoribbons: code and data"
+type: software
+authors:
+  - family-names: Rojas
+    given-names: Tomás
+    affiliation: "Centro de Investigación en Ciencia e Ingeniería de Materiales (CICIMA) and Sede de Occidente, Universidad de Costa Rica"
+    email: tomas.rojas_s@ucr.ac.cr
+repository-code: "https://github.com/tomas0821/v2se2o-altermagnet-bends-code"
+license: MIT
+version: 1.0.0
+date-released: "2026-11-14"
+keywords:
+  - altermagnet
+  - V2Se2O
+  - spin-polarized transport
+  - tight-binding
+  - Kwant
+  - nanoribbon
+preferred-citation:
+  type: article
+  title: "Design rules for spin-polarized currents through bends and junctions of V2Se2O-family altermagnet nanoribbons"
+  authors:
+    - family-names: Rojas
+      given-names: Tomás
+  journal: "Physics Letters A"
+  year: 2026
+  notes: "Submitted."

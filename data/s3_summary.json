@@ -1,0 +1,106 @@
+{
+ "RbV2Te2O r = sxx/syy at E = 0 (Cheng Fig. 4c: 4.32)": {
+  "T=10 K": 7.798,
+  "T=100 K": 7.719,
+  "T=300 K": 7.469
+ },
+ "RbV2Te2O: energy where r = 4.32 (Cheng Fig. 4 E_F not stated)": {
+  "T=10 K": -106.9,
+  "T=300 K": -100.8
+ },
+ "mean-field m(T/T_N = 0.75), S = 1": 0.7424,
+ "KV2Se2O 300 K, E_F: per-orbital r and share of sigma_xx": {
+  "xz": {
+   "r": 13.841,
+   "share_xx": 0.75,
+   "share_yy": 0.433
+  },
+  "xy": {
+   "r": 3.521,
+   "share_xx": 0.25,
+   "share_yy": 0.567
+  }
+ },
+ "KV2Se2O 300 K, E_F: r, P_str": [
+  7.986,
+  0.7774
+ ],
+ "P_str range over E_F +- 0.1 eV (cheng)": [
+  0.7161,
+  0.8382
+ ],
+ "P_str at E_F, sensitivity": {
+  "tau_xy/tau_xz = 0.5": 0.814,
+  "tau_xy/tau_xz = 2": 0.7286,
+  "m = 0.742 (T/T_N = 0.75), spin-mixing: P_str -> m P_str": 0.5771
+ },
+ "P_str full band over E_F +- 0.1 eV (tau 0.5-2, m 0.74-1)": [
+  0.505,
+  0.8685
+ ],
+ "mean free path, rho(300 K) = 0.5 mOhm cm (Cs1-dV2Te2O), c = 7.37 A": {
+  "sheet_R_per_layer_Ohm": 6784.3,
+  "tau_fs": 1.51,
+  "vF_1e5_m_per_s": 3.092,
+  "l_nm": 0.468
+ },
+ "network: r used (KV2Se2O, E_F, 300 K)": 7.9857,
+ "L-bend corner term": {
+  "c_up": 0.23517,
+  "c_dn": 0.23517,
+  "fit_spread": 0.008893,
+  "L_c_over_W": 0.418
+ },
+ "T-junction terms": {
+  "c_up": 0.08953,
+  "c_dn": 0.15617,
+  "fit_spread": 0.009321,
+  "d_T_over_W": 0.1524,
+  "L_T_over_W": 0.4367
+ },
+ "L: closed form vs network on held-out geometries": {
+  "n": 24,
+  "max_abs_dP": 0.00904,
+  "mean_abs_dP": 0.00275
+ },
+ "T: closed form vs network on held-out geometries": {
+  "n": 24,
+  "max_abs_dP": 0.00617,
+  "mean_abs_dP": 0.00217
+ },
+ "L: P for arm ratios 4/3, 2, 3 (total 4W, network)": [
+  0.105,
+  0.228,
+  0.35
+ ],
+ "symmetric L (W=20, arms 40): spin accumulation mu_s/V": {
+  "max_abs": 0.8361,
+  "at_cell": {
+   "x": 19,
+   "y": 0
+  },
+  "net_P": -1.5e-12
+ },
+ "spin relaxation (W = 20)": {
+  "no spin flip": {
+   "max_abs_mu_s": 0.8361,
+   "P_L_40_20_at_input": 0.2255,
+   "P_L_40_20_at_output": 0.2255
+  },
+  "lambda_sf/W = 5": {
+   "max_abs_mu_s": 0.7936,
+   "P_L_40_20_at_input": 0.2933,
+   "P_L_40_20_at_output": 0.1341
+  },
+  "lambda_sf/W = 2": {
+   "max_abs_mu_s": 0.6357,
+   "P_L_40_20_at_input": 0.5048,
+   "P_L_40_20_at_output": -0.167
+  },
+  "lambda_sf/W = 1": {
+   "max_abs_mu_s": 0.3963,
+   "P_L_40_20_at_input": 0.7071,
+   "P_L_40_20_at_output": -0.5199
+  }
+ }
+}

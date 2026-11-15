@@ -1,0 +1,11 @@
+232 jobs x 9 energies = 2088 solves
+  25/232 jobs (13 s)
+  50/232 jobs (26 s)
+  75/232 jobs (30 s)
+  100/232 jobs (34 s)
+  125/232 jobs (37 s)
+  150/232 jobs (39 s)
+  175/232 jobs (41 s)
+  200/232 jobs (43 s)
+  225/232 jobs (44 s)
+wrote data/s2_corners.csv (2088 rows) and data/s2_soc.csv in 45 s

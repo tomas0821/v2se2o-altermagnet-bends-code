@@ -1,0 +1,98 @@
+{
+ "method": "intraband Kubo-Greenwood, constant Lorentzian Gamma, no vertex corrections; 500^2 k-grid; Fermi smearing at 300 K",
+ "tau_fs": 1.51,
+ "hbar_over_tau_eV": 0.436,
+ "Gamma_half_eV": 0.218,
+ "scan": [
+  {
+   "Gamma_eV": 0.0,
+   "r": 7.986,
+   "P_str": 0.7774,
+   "r_sheets": 13.84,
+   "r_pockets": 3.52
+  },
+  {
+   "Gamma_eV": 0.05,
+   "r": 7.923,
+   "P_str": 0.7759,
+   "r_sheets": 13.52,
+   "r_pockets": 3.54
+  },
+  {
+   "Gamma_eV": 0.1,
+   "r": 7.743,
+   "P_str": 0.7713,
+   "r_sheets": 12.82,
+   "r_pockets": 3.57
+  },
+  {
+   "Gamma_eV": 0.15,
+   "r": 7.487,
+   "P_str": 0.7644,
+   "r_sheets": 12.06,
+   "r_pockets": 3.58
+  },
+  {
+   "Gamma_eV": 0.218,
+   "r": 7.088,
+   "P_str": 0.7527,
+   "r_sheets": 11.17,
+   "r_pockets": 3.53
+  },
+  {
+   "Gamma_eV": 0.3,
+   "r": 6.604,
+   "P_str": 0.737,
+   "r_sheets": 10.38,
+   "r_pockets": 3.41
+  },
+  {
+   "Gamma_eV": 0.436,
+   "r": 5.907,
+   "P_str": 0.7104,
+   "r_sheets": 9.52,
+   "r_pockets": 3.15
+  }
+ ],
+ "sweep_at_hbar_over_2tau": [
+  {
+   "E_eV": -0.19,
+   "r_Kubo": 5.482,
+   "P_Kubo": 0.6914,
+   "r_Boltzmann": 6.044,
+   "P_Boltzmann": 0.7161
+  },
+  {
+   "E_eV": -0.14,
+   "r_Kubo": 6.212,
+   "P_Kubo": 0.7227,
+   "r_Boltzmann": 6.945,
+   "P_Boltzmann": 0.7483
+  },
+  {
+   "E_eV": -0.09,
+   "r_Kubo": 7.088,
+   "P_Kubo": 0.7527,
+   "r_Boltzmann": 7.986,
+   "P_Boltzmann": 0.7774
+  },
+  {
+   "E_eV": -0.04,
+   "r_Kubo": 8.167,
+   "P_Kubo": 0.7818,
+   "r_Boltzmann": 9.346,
+   "P_Boltzmann": 0.8067
+  },
+  {
+   "E_eV": 0.01,
+   "r_Kubo": 9.534,
+   "P_Kubo": 0.8101,
+   "r_Boltzmann": 11.358,
+   "P_Boltzmann": 0.8382
+  }
+ ],
+ "P_str_Kubo_range_over_EF_pm_0.1": [
+  0.6914,
+  0.8101
+ ]
+}

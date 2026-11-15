@@ -1,0 +1,414 @@
+{
+ "note": "dP = P_output(lambda_sf) - P_output(no spin flip); fit dP = -c (L/lambda_sf)^2 for L/lambda_sf <= 0.8",
+ "points": [
+  {
+   "geometry": "T",
+   "arms": [
+    10,
+    40
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 0.5,
+   "dP": -0.0571,
+   "c": 0.229
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    20,
+    40
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 0.6,
+   "dP": -0.0954,
+   "c": 0.265
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    40,
+    40
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 0.8,
+   "dP": -0.1294,
+   "c": 0.202
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    46,
+    34
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 0.8,
+   "dP": -0.1357,
+   "c": 0.212
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    53,
+    27
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 0.8,
+   "dP": -0.1362,
+   "c": 0.213
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    60,
+    20
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 0.8,
+   "dP": -0.128,
+   "c": 0.2
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    64,
+    16
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 0.8,
+   "dP": -0.1187,
+   "c": 0.185
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    69,
+    11
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 0.8,
+   "dP": -0.1017,
+   "c": 0.159
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    40,
+    40
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 0.8,
+   "dP": -0.1536,
+   "c": 0.24
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    80,
+    40
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 1.2,
+   "dP": -0.2316,
+   "c": 0.161
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    10,
+    40
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 1.25,
+   "dP": -0.2555,
+   "c": 0.163
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    20,
+    40
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 1.5,
+   "dP": -0.3963,
+   "c": 0.176
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    120,
+    40
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 1.6,
+   "dP": -0.2842,
+   "c": 0.111
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    160,
+    40
+   ],
+   "lambda_over_W": 5.0,
+   "L_over_lambda": 2.0,
+   "dP": -0.3221,
+   "c": 0.081
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    40,
+    40
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 2.0,
+   "dP": -0.4613,
+   "c": 0.115
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    46,
+    34
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 2.0,
+   "dP": -0.4925,
+   "c": 0.123
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    53,
+    27
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 2.0,
+   "dP": -0.509,
+   "c": 0.127
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    60,
+    20
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 2.0,
+   "dP": -0.4973,
+   "c": 0.124
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    64,
+    16
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 2.0,
+   "dP": -0.4742,
+   "c": 0.119
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    69,
+    11
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 2.0,
+   "dP": -0.4236,
+   "c": 0.106
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    40,
+    40
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 2.0,
+   "dP": -0.577,
+   "c": 0.144
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    10,
+    40
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 2.5,
+   "dP": -0.487,
+   "c": 0.078
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    80,
+    40
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 3.0,
+   "dP": -0.7579,
+   "c": 0.084
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    20,
+    40
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 3.0,
+   "dP": -0.694,
+   "c": 0.077
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    120,
+    40
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 4.0,
+   "dP": -0.8449,
+   "c": 0.053
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    40,
+    40
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 4.0,
+   "dP": -0.705,
+   "c": 0.044
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    46,
+    34
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 4.0,
+   "dP": -0.7767,
+   "c": 0.049
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    53,
+    27
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 4.0,
+   "dP": -0.8401,
+   "c": 0.053
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    60,
+    20
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 4.0,
+   "dP": -0.8696,
+   "c": 0.054
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    64,
+    16
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 4.0,
+   "dP": -0.8634,
+   "c": 0.054
+  },
+  {
+   "geometry": "L",
+   "arms": [
+    69,
+    11
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 4.0,
+   "dP": -0.8205,
+   "c": 0.051
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    40,
+    40
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 4.0,
+   "dP": -0.9232,
+   "c": 0.058
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    160,
+    40
+   ],
+   "lambda_over_W": 2.0,
+   "L_over_lambda": 5.0,
+   "dP": -0.8948,
+   "c": 0.036
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    80,
+    40
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 6.0,
+   "dP": -1.1209,
+   "c": 0.031
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    120,
+    40
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 8.0,
+   "dP": -1.2092,
+   "c": 0.019
+  },
+  {
+   "geometry": "T",
+   "arms": [
+    160,
+    40
+   ],
+   "lambda_over_W": 1.0,
+   "L_over_lambda": 10.0,
+   "dP": -1.2592,
+   "c": 0.013
+  }
+ ],
+ "c_range_small_L": [
+  0.159,
+  0.265
+ ],
+ "c_mean_small_L": 0.212,
+ "L_over_lambda_for_absdP_le_0p05": 0.43,
+ "L_over_lambda_for_absdP_le_0p03": 0.34,
+ "L_40_20_at_lambda_5W": {
+  "P_output": 0.1341,
+  "note": "arms 40/20 = 3W, L/lambda = 0.6"
+ },
+ "network_decay_length_over_lambda": 0.793,
+ "decay_note": "with g = sqrt(r)/(2 lambda^2) and bonds (r,1)/(1,r), mu_s decays as exp(-x/lambda_eff) along either axis, lambda_eff = lambda sqrt(2 sqrt(r)/(r+1))"
+}

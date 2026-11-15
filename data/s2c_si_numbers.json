@@ -1,0 +1,174 @@
+{
+ "kappa L": {
+  "cheng": {
+   "mean": 0.879,
+   "min": 0.784,
+   "max": 0.971,
+   "max_dev_pct": 10.8
+  },
+  "iso": {
+   "mean": 0.591,
+   "min": 0.526,
+   "max": 0.764,
+   "max_dev_pct": 29.2
+  },
+  "single_band": {
+   "mean": 0.972,
+   "min": 0.875,
+   "max": 0.996,
+   "max_dev_pct": 10.0
+  }
+ },
+ "kappa Lc4": {
+  "cheng": {
+   "mean": 0.92,
+   "min": 0.816,
+   "max": 0.975,
+   "max_dev_pct": 11.3
+  },
+  "iso": {
+   "mean": 0.721,
+   "min": 0.621,
+   "max": 0.817,
+   "max_dev_pct": 13.9
+  }
+ },
+ "kappa Lc2": {
+  "cheng": {
+   "mean": 0.954,
+   "min": 0.834,
+   "max": 0.985,
+   "max_dev_pct": 12.6
+  },
+  "iso": {
+   "mean": 0.782,
+   "min": 0.679,
+   "max": 0.867,
+   "max_dev_pct": 13.2
+  }
+ },
+ "kappa T": {
+  "cheng": {
+   "mean": 0.839,
+   "min": 0.691,
+   "max": 0.942,
+   "max_dev_pct": 17.7
+  },
+  "iso": {
+   "mean": 0.759,
+   "min": 0.681,
+   "max": 0.913,
+   "max_dev_pct": 20.4
+  },
+  "single_band": {
+   "mean": 0.958,
+   "min": 0.849,
+   "max": 0.996,
+   "max_dev_pct": 11.3
+  }
+ },
+ "kappa B45": {
+  "cheng": {
+   "mean": 0.792,
+   "min": 0.383,
+   "max": 0.998,
+   "max_dev_pct": 51.7
+  },
+  "iso": {
+   "mean": 0.893,
+   "min": 0.776,
+   "max": 0.985,
+   "max_dev_pct": 13.1
+  },
+  "single_band": {
+   "mean": 0.717,
+   "min": 0.088,
+   "max": 0.995,
+   "max_dev_pct": 87.7
+  }
+ },
+ "kappa T by spin (cheng)": {
+  "up": {
+   "mean": 0.792,
+   "min": 0.691,
+   "max": 0.891,
+   "max_dev_pct": 12.8
+  },
+  "dn": {
+   "mean": 0.885,
+   "min": 0.784,
+   "max": 0.942,
+   "max_dev_pct": 11.5
+  }
+ },
+ "kappa T by spin (cheng), W >= 20 sites": {
+  "up": {
+   "mean": 0.792,
+   "min": 0.769,
+   "max": 0.823,
+   "max_dev_pct": 3.9
+  },
+  "dn": {
+   "mean": 0.896,
+   "min": 0.854,
+   "max": 0.942,
+   "max_dev_pct": 5.1
+  }
+ },
+ "max |T - kappa N_min| (channels), scan": {
+  "L_sharp": 0.66,
+  "T_arm_spin_resolved": 0.71
+ },
+ "T-arm P by width (scan)": {
+  "W=10 (4.0 nm)": [
+   0.274,
+   0.338
+  ],
+  "W=15 (5.9 nm)": [
+   0.268,
+   0.305
+  ],
+  "W=20 (7.9 nm)": [
+   0.267,
+   0.296
+  ],
+  "W=25 (9.9 nm)": [
+   0.269,
+   0.293
+  ],
+  "W=30 (11.9 nm)": [
+   0.256,
+   0.3
+  ],
+  "W=40 (15.8 nm)": [
+   0.267,
+   0.287
+  ]
+ },
+ "T-arm P, W >= 6 nm (scan)": [
+  0.256,
+  0.305
+ ],
+ "T-arm P, held-out grid": [
+  0.257,
+  0.308
+ ],
+ "45-degree bend P at E_F by width": {
+  "xy+0.0": {
+   "4.0 nm": 0.15,
+   "5.9 nm": 0.092,
+   "7.9 nm": 0.108,
+   "9.9 nm": 0.154,
+   "11.9 nm": 0.112,
+   "15.8 nm": 0.051
+  },
+  "xy+0.08": {
+   "4.0 nm": 0.29,
+   "5.9 nm": 0.172,
+   "7.9 nm": 0.183,
+   "9.9 nm": 0.136,
+   "11.9 nm": 0.115,
+   "15.8 nm": 0.065
+  }
+ }
+}

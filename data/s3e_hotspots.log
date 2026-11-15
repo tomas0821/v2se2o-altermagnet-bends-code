@@ -1,0 +1,73 @@
+800 4.595765092410519e-05
+2000 4.5956861599609325e-05
+4000 4.600456861333451e-05
+{
+ "ell_nm": 0.468,
+ "convergence_at_EF": [
+  {
+   "N": 800,
+   "b2": 4.5958e-05
+  },
+  {
+   "N": 2000,
+   "b2": 4.5957e-05
+  },
+  {
+   "N": 4000,
+   "b2": 4.6005e-05
+  }
+ ],
+ "lambda_sf": [
+  {
+   "E_eV": -0.15,
+   "b2": 7.9822e-05,
+   "lambda_over_ell": 39.6,
+   "lambda_nm": 18.5
+  },
+  {
+   "E_eV": -0.09,
+   "b2": 4.5957e-05,
+   "lambda_over_ell": 52.2,
+   "lambda_nm": 24.4
+  },
+  {
+   "E_eV": 0.0,
+   "b2": 3.1798e-05,
+   "lambda_over_ell": 62.7,
+   "lambda_nm": 29.3
+  },
+  {
+   "E_eV": 0.1,
+   "b2": 2.3939e-05,
+   "lambda_over_ell": 72.3,
+   "lambda_nm": 33.8
+  }
+ ],
+ "crossings": {
+  "up-xz/dn-xy (coupled)": {
+   "min_sum_dist_meV": 273.6,
+   "k_over_pi": [
+    -0.561,
+    -1.0
+   ],
+   "coupling_there_meV": 0.11
+  },
+  "up-xy/dn-yz (coupled)": {
+   "min_sum_dist_meV": 273.6,
+   "k_over_pi": [
+    -1.0,
+    -0.561
+   ],
+   "coupling_there_meV": 0.11
+  },
+  "up-xz/dn-yz sheets (not coupled for Neel along z)": {
+   "min_sum_dist_meV": 0.3,
+   "k_over_pi": [
+    -0.45,
+    -0.45
+   ],
+   "coupling_there_meV": null
+  }
+ }
+}
+done
