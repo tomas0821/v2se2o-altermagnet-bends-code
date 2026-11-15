@@ -56,7 +56,7 @@ def fig1():
     for x in (1, 2, 3):
         a1.axvline(x, color=GREY, lw=0.4)
     a1.set_xticks([0, 1, 2, 3, 4], ["M", "X", "Γ", "Y", "M"]); a1.set_xlim(0, 4); a1.set_ylim(-1.1, 1.1)
-    a1.set_ylabel("E (eV)"); title(a1, "(a) bands (red ↑, blue ↓ TB; grey DFT)")
+    a1.set_ylabel("E (eV)"); title(a1, "(a) bands (red ↑, blue ↓ TB; gray DFT)")
     kg = np.linspace(-np.pi, np.pi, 401)
     KX, KY = np.meshgrid(kg, kg, indexing="xy")
     for col, spin in ((UP, "up"), (DN, "dn")):
@@ -167,7 +167,7 @@ def fig3():
     a.axhline(1 / 3, color=GREY, lw=1.0, label="counting, one κ (⅓)")
     ku = np.mean([A2.kappa("T", "cheng", "up", W, e) for W in WS if W >= 20 for e in ES])
     kd = np.mean([A2.kappa("T", "cheng", "dn", W, e) for W in WS if W >= 20 for e in ES])
-    a.axhline((2 * ku - kd) / (2 * ku + kd), color=INK, lw=0.8, ls="--", label=f"Eq. (4): κ↑ {ku:.2f}, κ↓ {kd:.2f}")
+    a.axhline((2 * ku - kd) / (2 * ku + kd), color=INK, lw=0.8, ls="--", label=f"Eq. (4): κ↑ {ku:.3f}, κ↓ {kd:.3f}")
     a.axvline(E_F, color=INK, lw=0.5, ls=":"); a.set_ylim(0.25, 0.345)
     a.set_xlabel("E (eV)"); a.set_ylabel("T-arm P"); title(a, "(c) T-junction arm polarization")
     a.legend(loc="upper left", bbox_to_anchor=(0, 0.86))

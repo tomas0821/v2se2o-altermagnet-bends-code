@@ -80,4 +80,4 @@ processes, checks free memory and checkpoints every task, so an interrupted run 
 
 The code is released under the MIT License (`LICENSE`) and the data under CC BY 4.0. If you use them, please cite
 the paper and this archive: doi:[10.5281/zenodo.24238844](https://doi.org/10.5281/zenodo.24238844) (all versions;
-v1.0.0 is [10.5281/zenodo.24238845](https://doi.org/10.5281/zenodo.24238845)).
+v1.1.0, the version cited in the paper, is [10.5281/zenodo.24239467](https://doi.org/10.5281/zenodo.24239467)).
