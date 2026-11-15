@@ -4,7 +4,8 @@ title: "Spin-polarized currents through bends and junctions of V2Se2O-family alt
 type: software
 authors:
   - family-names: Rojas
-    given-names: Tomás
+    given-names: Tomas
+    orcid: "https://orcid.org/0000-0001-5745-4255"
     affiliation: "Centro de Investigación en Ciencia e Ingeniería de Materiales (CICIMA) and Sede de Occidente, Universidad de Costa Rica"
     email: tomas.rojas_s@ucr.ac.cr
 repository-code: "https://github.com/tomas0821/v2se2o-altermagnet-bends-code"
